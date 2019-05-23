@@ -1,4 +1,12 @@
 {
+  "name": "project-euler-problems",
+  "version": "1.0.0",
+  "description": "Project Euler Problems",
+  "main": "index.js",
+  "repository": "https://github.com/adriandurran/project-euler-problems.git",
+  "author": "Adrian Durran <adrian@intellidroid.eu>",
+  "license": "MIT",
+  "private": false,
   "dependencies": {
     "jest": "^24.8.0"
   }
