@@ -3,11 +3,13 @@
 // Find the sum of all the multiples of 3 or 5 below 1000.
 
 function multi3and5() {
-  const multi = [];
+  let result = 0;
   for (let i = 1; i < 1000; i++) {
-    multi3.push(i * 3);
-    multi.push(i * 5);
+    if (i % 3 === 0 || i % 5 == 0) {
+      result += i;
+    }
   }
+  return result;
 }
 
 module.exports = multi3and5;

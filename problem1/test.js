@@ -7,3 +7,7 @@ const multi3and5 = require('./problem1');
 test('multi3and5 function is defined', () => {
   expect(multi3and5).toBeDefined();
 });
+
+test('totalMulti should equal', () => {
+  expect(multi3and5()).toEqual(233168);
+});
